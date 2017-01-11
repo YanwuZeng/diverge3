@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\diverge___Win32_Release\</OutDir>
+    <IntDir>.\diverge___Win32_Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\diverge___Win32_Debug\</OutDir>
+    <IntDir>.\diverge___Win32_Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;Z:\root\media\LenovoHome4\zywhome\studio\CPP\qt3\include</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;Z:\root\media\LenovoHome4\zywhome\studio\CPP\qt3\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\diverge___Win32_Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\diverge___Win32_Release\diverge.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\diverge___Win32_Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\diverge___Win32_Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\diverge___Win32_Release\diverge.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\diverge___Win32_Release\diverge.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\diverge___Win32_Release\diverge.exe</OutputFile>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT;GUI;BOOTSTRAP;QT_DLL;UNICODE;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\diverge___Win32_Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>Debug/diverge.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>Debug/</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\diverge___Win32_Debug\diverge.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\diverge___Win32_Debug\diverge.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>Debug/diverge.exe</OutputFile>
+      <AdditionalDependencies>imm32.lib;winmm.lib;wsock32.lib;$(QTDIR)\lib\qt-mt230nc.lib;$(QTDIR)\lib\qtmain.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="align.cpp" />
+    <ClCompile Include="alignment_view.cpp" />
+    <ClCompile Include="ancestral_compute.cpp" />
+    <ClCompile Include="ancestral_seq_tab.cpp" />
+    <ClCompile Include="asymmetric_test_one.cpp" />
+    <ClCompile Include="asymmetric_test_one_tab.cpp" />
+    <ClCompile Include="cluster.cpp" />
+    <ClCompile Include="clustering_tab.cpp" />
+    <ClCompile Include="effective_number.cpp" />
+    <ClCompile Include="effective_number_sites_tab.cpp" />
+    <ClCompile Include="false_discovery_rate.cpp" />
+    <ClCompile Include="false_discovery_rate_tab.cpp" />
+    <ClCompile Include="fdr_graph_view.cpp" />
+    <ClCompile Include="func_dist_tab.cpp" />
+    <ClCompile Include="graph_view.cpp" />
+    <ClCompile Include="graphics_utils.cpp" />
+    <ClCompile Include="gu2001.cpp" />
+    <ClCompile Include="gu2001_method_tab.cpp" />
+    <ClCompile Include="gu99.cpp" />
+    <ClCompile Include="gu99_method_tab.cpp" />
+    <ClCompile Include="guwidget.cpp" />
+    <ClCompile Include="gz97.cpp" />
+    <ClCompile Include="GZf2.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainwindow.cpp" />
+    <ClCompile Include="method_tab.cpp" />
+    <ClCompile Include="moc_alignment_view.cpp" />
+    <ClCompile Include="moc_ancestral_seq_tab.cpp" />
+    <ClCompile Include="moc_asymmetric_test_one_tab.cpp" />
+    <ClCompile Include="moc_clustering_tab.cpp" />
+    <ClCompile Include="moc_effective_number_sites_tab.cpp" />
+    <ClCompile Include="moc_false_discovery_rate_tab.cpp" />
+    <ClCompile Include="moc_func_dist_tab.cpp" />
+    <ClCompile Include="moc_graph_view.cpp" />
+    <ClCompile Include="moc_gu2001_method_tab.cpp" />
+    <ClCompile Include="moc_gu99_method_tab.cpp" />
+    <ClCompile Include="moc_guwidget.cpp" />
+    <ClCompile Include="moc_mainwindow.cpp" />
+    <ClCompile Include="moc_method_tab.cpp" />
+    <ClCompile Include="moc_pdb_viewer.cpp" />
+    <ClCompile Include="moc_qlistview_wcs.cpp" />
+    <ClCompile Include="moc_rvs_tab.cpp" />
+    <ClCompile Include="moc_sequences_tab.cpp" />
+    <ClCompile Include="moc_tip_window.cpp" />
+    <ClCompile Include="moc_tree_view.cpp" />
+    <ClCompile Include="moc_type_one_method_tab.cpp" />
+    <ClCompile Include="moc_type_two_method_tab.cpp" />
+    <ClCompile Include="pdb.cpp" />
+    <ClCompile Include="pdb_viewer.cpp" />
+    <ClCompile Include="progress.cpp" />
+    <ClCompile Include="qlistview_wcs.cpp">
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Level3</WarningLevel>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="resources.cpp" />
+    <ClCompile Include="rvs.cpp" />
+    <ClCompile Include="rvs_tab.cpp" />
+    <ClCompile Include="sequence.cpp" />
+    <ClCompile Include="sequences_tab.cpp" />
+    <ClCompile Include="splash_window.cpp" />
+    <ClCompile Include="star_view.cpp" />
+    <ClCompile Include="tip_window.cpp" />
+    <ClCompile Include="tree.cpp" />
+    <ClCompile Include="tree_view.cpp" />
+    <ClCompile Include="type_one.cpp" />
+    <ClCompile Include="type_one_method_tab.cpp" />
+    <ClCompile Include="type_two.cpp" />
+    <ClCompile Include="type_two_method_tab.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="align.h" />
+    <ClInclude Include="alignment_view.h" />
+    <ClInclude Include="ancestral_compute.h" />
+    <ClInclude Include="ancestral_seq_tab.h" />
+    <ClInclude Include="asymmetric_test_one.h" />
+    <ClInclude Include="asymmetric_test_one_tab.h" />
+    <ClInclude Include="cluster.h" />
+    <ClInclude Include="clustering_tab.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="effective_number.h" />
+    <ClInclude Include="effective_number_sites_tab.h" />
+    <ClInclude Include="false_discovery_rate.h" />
+    <ClInclude Include="false_discovery_rate_tab.h" />
+    <ClInclude Include="fdr_graph_view.h" />
+    <ClInclude Include="func_dist_tab.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="graph_view.h" />
+    <ClInclude Include="graphics_utils.h" />
+    <ClInclude Include="gu2001.h" />
+    <ClInclude Include="gu2001_method_tab.h" />
+    <ClInclude Include="gu99.h" />
+    <ClInclude Include="gu99_method_tab.h" />
+    <ClInclude Include="guwidget.h" />
+    <ClInclude Include="gz97.h" />
+    <ClInclude Include="GZf2.h" />
+    <ClInclude Include="mainwindow.h" />
+    <ClInclude Include="matrices.h" />
+    <ClInclude Include="matrix.h" />
+    <ClInclude Include="method_tab.h" />
+    <ClInclude Include="pdb.h" />
+    <ClInclude Include="pdb_viewer.h" />
+    <ClInclude Include="progress.h" />
+    <ClInclude Include="qlistview_wcs.h" />
+    <ClInclude Include="resources.h" />
+    <ClInclude Include="result.h" />
+    <ClInclude Include="rvs.h" />
+    <ClInclude Include="rvs_tab.h" />
+    <ClInclude Include="sequence.h" />
+    <ClInclude Include="sequences_tab.h" />
+    <ClInclude Include="splash_window.h" />
+    <ClInclude Include="star_view.h" />
+    <ClInclude Include="tip_window.h" />
+    <ClInclude Include="tree.h" />
+    <ClInclude Include="tree_view.h" />
+    <ClInclude Include="type_one.h" />
+    <ClInclude Include="type_one_method_tab.h" />
+    <ClInclude Include="type_two.h" />
+    <ClInclude Include="type_two_method_tab.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

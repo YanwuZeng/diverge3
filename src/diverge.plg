@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: diverge - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\user01\AppData\Local\Temp\RSP7F50.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "QT" /D "GUI" /D "BOOTSTRAP" /D "QT_DLL" /D "UNICODE" /D "QT_THREAD_SUPPORT" /Fp"Debug/diverge.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\user01\Desktop\diverge3.1forgithub\mainwindow.cpp"
+]
+Creating command line "cl.exe @C:\Users\user01\AppData\Local\Temp\RSP7F50.tmp" 
+Creating temporary file "C:\Users\user01\AppData\Local\Temp\RSP7F51.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib winmm.lib wsock32.lib imm32.lib wsock32.lib winmm.lib Z:\root\media\LenovoHome4\zywhome\studio\CPP\qt230_\lib\qt-mt230nc.lib Z:\root\media\LenovoHome4\zywhome\studio\CPP\qt230_\lib\qtmain.lib opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/diverge.pdb" /debug /machine:I386 /out:"Debug/diverge.exe" /pdbtype:sept 
+.\Debug\align.obj
+.\Debug\alignment_view.obj
+.\Debug\ancestral_compute.obj
+.\Debug\ancestral_seq_tab.obj
+.\Debug\asymmetric_test_one.obj
+.\Debug\asymmetric_test_one_tab.obj
+.\Debug\cluster.obj
+.\Debug\clustering_tab.obj
+.\Debug\effective_number.obj
+.\Debug\effective_number_sites_tab.obj
+.\Debug\false_discovery_rate.obj
+.\Debug\false_discovery_rate_tab.obj
+.\Debug\fdr_graph_view.obj
+.\Debug\func_dist_tab.obj
+.\Debug\graph_view.obj
+.\Debug\graphics_utils.obj
+.\Debug\gu2001.obj
+.\Debug\gu2001_method_tab.obj
+.\Debug\gu99.obj
+.\Debug\gu99_method_tab.obj
+.\Debug\guwidget.obj
+.\Debug\gz97.obj
+.\Debug\GZf2.obj
+.\Debug\main.obj
+.\Debug\mainwindow.obj
+.\Debug\method_tab.obj
+.\Debug\moc_alignment_view.obj
+.\Debug\moc_ancestral_seq_tab.obj
+.\Debug\moc_asymmetric_test_one_tab.obj
+.\Debug\moc_clustering_tab.obj
+.\Debug\moc_effective_number_sites_tab.obj
+.\Debug\moc_false_discovery_rate_tab.obj
+.\Debug\moc_func_dist_tab.obj
+.\Debug\moc_graph_view.obj
+.\Debug\moc_gu2001_method_tab.obj
+.\Debug\moc_gu99_method_tab.obj
+.\Debug\moc_guwidget.obj
+.\Debug\moc_mainwindow.obj
+.\Debug\moc_method_tab.obj
+.\Debug\moc_pdb_viewer.obj
+.\Debug\moc_qlistview_wcs.obj
+.\Debug\moc_rvs_tab.obj
+.\Debug\moc_sequences_tab.obj
+.\Debug\moc_tip_window.obj
+.\Debug\moc_tree_view.obj
+.\Debug\moc_type_one_method_tab.obj
+.\Debug\moc_type_two_method_tab.obj
+.\Debug\pdb.obj
+.\Debug\pdb_viewer.obj
+.\Debug\progress.obj
+.\Debug\qlistview_wcs.obj
+.\Debug\resources.obj
+.\Debug\rvs.obj
+.\Debug\rvs_tab.obj
+.\Debug\sequence.obj
+.\Debug\sequences_tab.obj
+.\Debug\splash_window.obj
+.\Debug\star_view.obj
+.\Debug\tip_window.obj
+.\Debug\tree.obj
+.\Debug\tree_view.obj
+.\Debug\type_one.obj
+.\Debug\type_one_method_tab.obj
+.\Debug\type_two.obj
+.\Debug\type_two_method_tab.obj
+]
+Creating command line "link.exe @C:\Users\user01\AppData\Local\Temp\RSP7F51.tmp"
+<h3>Output Window</h3>
+Compiling...
+mainwindow.cpp
+c:\program files (x86)\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files (x86)\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+Linking...
+
+
+
+<h3>Results</h3>
+diverge.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
