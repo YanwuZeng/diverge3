@@ -1,4 +1,4 @@
-This binary is prepared on ubuntu 16.04.1 LTS. 
+This binary is prepared on ubuntu 16.04.1 LTS with qt3.
 
 The current ubuntu only include qt4, but DIVERGE is developed under qt2/3. There are a lot work to port.
 
